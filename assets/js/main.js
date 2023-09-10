@@ -26,3 +26,8 @@ title.style.fontFamily = "Montserrat"
 let add =  '<p class="add">Вставка HTML-кода из JS</p>';
 let for__add = document.querySelector('.for__add');
 for__add.innerHTML = add;
+
+
+let link = '<a href="https://github.com/mmaletskov/sm4" class="">ссылка на гит</a>';
+let link__git = document.querySelector('.link__git');
+link__git.innerHTML = link; 
