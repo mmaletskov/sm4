@@ -2,6 +2,10 @@
 let a = prompt('Введите стоимость товара')
 let b = prompt('Введите кол-во денег')
 
+var a = Number(a1);
+var b = Number(b1);
+
+
 if(a>b){
     let x = a-b;
     document.getElementById('text').innerHTML = 'Вам не хватает: '+ x + 'р.';
